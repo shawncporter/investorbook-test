@@ -1,0 +1,13 @@
+/* color hex codes */
+
+:root {
+    /* primary colors */
+    --color-primary: #616DD7;
+    --color-primary-dark: #4350c5;
+
+    /* grayscale */
+    --color-black: #000000;
+    --color-gray-light: #CCCCCC;
+    --color-gray-dark: #808080;
+    --color-white: #FFFFFF;
+}

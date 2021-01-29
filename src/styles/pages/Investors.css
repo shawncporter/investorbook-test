@@ -1,0 +1,20 @@
+@import "../fonts/fonts.css";
+@import "../colors/colors.css";
+/* CTA general styles */
+
+.cta {
+    display: grid;
+    grid-template-columns: [line1] 175px [line2] auto [line3] 300px [line4] 170px [end];
+    position: relative;
+    padding-top: 1em;
+    
+}
+
+.cta h1 {
+    grid-column-start: line1;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+
+

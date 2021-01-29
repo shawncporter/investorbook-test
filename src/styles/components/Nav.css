@@ -1,0 +1,57 @@
+@import "../fonts/fonts.css";
+@import "../colors/colors.css";
+
+/* Navigation */
+nav {
+  width: 100%;
+  border-bottom: 1px solid var(--color-gray-light);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  padding-inline-start: 0;
+  padding: 4em 0 0 0;
+}
+
+.nav-links li {
+  padding: 0 1.5em;
+  position: relative;
+  
+}
+
+.nav-links a {
+    color: var(--color-gray-dark);
+    text-decoration: none;
+    padding-bottom: 1em;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: var(--color-black);
+}
+
+.nav-links a:focus {
+    border-bottom: 3px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+/* Logo */
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-start;
+  width: 90%;
+  align-items: center;
+  text-align: left;
+  margin: auto;
+  padding-top: 3em;
+}
+
+.logo img {
+  width: 15em;
+}
