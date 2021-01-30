@@ -7,7 +7,9 @@
 
     /* grayscale */
     --color-black: #000000;
-    --color-gray-light: #CCCCCC;
+    --color-gray-darker: #5c5c5c;
     --color-gray-dark: #808080;
+    --color-gray-light: #CCCCCC;
+    --color-gray-lighter: #FAFAFA;
     --color-white: #FFFFFF;
 }

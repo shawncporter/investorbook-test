@@ -1,41 +1,24 @@
 @import "../fonts/fonts.css";
 @import "../colors/colors.css";
 
-.user { 
-    background-color: var(--color-gray-lighter); 
-}
-
-.user-row {
+.company-row {
     display: grid;
-    grid-template-columns: [line1] 100px [line2] 300px [line3] auto;
+    grid-template-columns: [line1] 300px [line2] 100px [line3] auto;
     position: relative;
     width: 90%;
     border-bottom: 1px solid var(--color-gray-light);
     padding: 1em 0;
 }
 
-.user-row h3 {
-    grid-column-start: line2;
+.company-row h3 {
+    grid-column-start: line1;
     color: var(--color-black);
     align-self: center;
     font-weight: 600;
 }
 
-.user-row p {
+.company-row p {
     grid-column-start: line3;
     color: var(--color-gray-darker);
     align-self: center;
 }
-
-.user-row img {
-    align-self: center;
-}
-
-.user-row a:link {
-    text-decoration: none;
-}
-
-.user-row:hover h3{
-    color: var(--color-primary);
-}
-

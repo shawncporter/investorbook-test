@@ -5,6 +5,7 @@
 nav {
   width: 100%;
   border-bottom: 1px solid var(--color-gray-light);
+  background-color: var(--color-white);
 }
 
 .nav-links {
@@ -35,8 +36,8 @@ nav {
 }
 
 .nav-links a:focus {
-    border-bottom: 3px solid var(--color-primary);
-    color: var(--color-primary);
+    border-bottom: 3px solid var(--color-black);
+    color: var(--color-black);
 }
 
 /* Logo */

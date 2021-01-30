@@ -4,10 +4,9 @@
 
 .cta {
     display: grid;
-    grid-template-columns: [line1] 175px [line2] auto [line3] 300px [line4] 170px [end];
+    grid-template-columns: [line1] 175px [line2] auto [line3] 300px [line4] 120px [end];
     position: relative;
-    padding-top: 3em;
-    
+    padding-top: 2em;   
 }
 
 .cta h1 {

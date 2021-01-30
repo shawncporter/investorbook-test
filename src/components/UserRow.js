@@ -2,15 +2,21 @@
 import '../styles/App.css';
 import '../styles/components/UserRow.css';
 
+import { Link } from 'react-router-dom';
 
 function UserRow(props) {
+
     const { img, userName, description } = props;
     return (
-        <div className="user-row container">
-            <div>{img}</div>
-            <h3>{userName}</h3>
-            <p>{description}</p>
-        </div>
+        <Link to="/profile" className="user-link">
+            <div className="user">
+                <div className="user-row container">
+                    <img src={img} alt="Avatar" />
+                    <h3>{userName}</h3>
+                    <p>{description}</p>
+                </div>
+            </div>
+        </Link>
     );
 }
 
