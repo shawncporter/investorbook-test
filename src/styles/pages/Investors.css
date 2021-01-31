@@ -16,14 +16,5 @@
     
 }
 
-/* Users link to profile */
-
-.user-link {
-    text-decoration: none;
-}
-
-.user-link:hover {
-    background-color: red;
-}
 
 
