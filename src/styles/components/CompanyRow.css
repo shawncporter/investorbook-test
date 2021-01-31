@@ -22,3 +22,11 @@
     color: var(--color-gray-darker);
     align-self: center;
 }
+
+.company-link:link {
+    text-decoration: none;
+}
+
+.company-row:hover h3{
+    color: var(--color-primary-dark);
+}

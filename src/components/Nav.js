@@ -13,10 +13,10 @@ function Nav() {
         <img src={logo} className="App-logo" alt="logo" />
       </div>
       <ul className="nav-links container">
-        <NavLink to="/investors" activeClassName="selected">
+        <NavLink exact to="/investors" activeClassName="is-active">
           <li>Investors</li>
         </NavLink>
-        <NavLink to="/companies">
+        <NavLink to="/companies" activeClassName="is-active">
           <li>Companies</li>
         </NavLink>
       </ul>

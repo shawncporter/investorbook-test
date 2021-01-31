@@ -36,6 +36,6 @@
 }
 
 .user-row:hover h3{
-    color: var(--color-primary);
+    color: var(--color-primary-dark);
 }
 

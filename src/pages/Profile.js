@@ -1,17 +1,17 @@
-
 // Stylesheets
 import '../styles/App.css';
 
-import Header from '../components/Header';
-import LabelRow from '../components/LabelRow';
+import userData from '../data/UserData';
 
-function Investors() {
+function Profile(props) {
+    const userSlug = props.match.params.userProfile
+    const user = userData.find(user => user.slug === userSlug)
     return (
         <div>
-            <Header heading="Investors" />
-            <LabelRow label1="Name" label2="Investments" />
+            {userSlug}
+            <img src={user.img} alt="Avatar" className="avatar" />
         </div>
     );
 }
 
-export default Investors;
+export default Profile;

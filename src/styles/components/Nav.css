@@ -32,12 +32,12 @@ nav {
 }
 
 .nav-links a:hover {
-    color: var(--color-black);
+    color: var(--color-primary);
 }
 
-.nav-links a:focus {
-    border-bottom: 3px solid var(--color-black);
-    color: var(--color-black);
+.is-active {
+    border-bottom: 2px solid var(--color-primary);
+    color: var(--color-primary)!important;
 }
 
 /* Logo */
