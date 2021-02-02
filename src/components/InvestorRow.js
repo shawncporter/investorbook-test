@@ -1,10 +1,10 @@
 // Stylesheets
 import '../styles/App.css';
-import '../styles/components/UserRow.css';
+import '../styles/components/InvestorRow.css';
 
 import { Link } from 'react-router-dom';
 
-function UserRow(props) {
+function InvestorRow(props) {
 
     const { img, userName, description, slug } = props;
     console.log(img)
@@ -21,4 +21,4 @@ function UserRow(props) {
     );
 }
 
-export default UserRow;
+export default InvestorRow;

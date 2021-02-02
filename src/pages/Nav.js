@@ -1,5 +1,5 @@
 // Stylesheets
-import '../styles/components/Nav.css';
+import '../styles/pages/Nav.css';
 import '../styles/App.css';
 // Link
 import { NavLink } from "react-router-dom";

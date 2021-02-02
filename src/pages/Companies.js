@@ -2,7 +2,7 @@
 import '../styles/App.css';
 import '../styles/pages/Companies.css';
 
-import Nav from '../components/Nav';
+import Nav from './Nav';
 import Header from '../components/Header';
 import LabelRow from '../components/LabelRow';
 import CompanyRow from '../components/CompanyRow';

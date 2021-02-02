@@ -2,10 +2,10 @@
 import '../styles/App.css';
 import '../styles/pages/Investors.css';
 
-import Nav from '../components/Nav';
+import Nav from './Nav';
 import Header from '../components/Header';
 import LabelRow from '../components/LabelRow';
-import UserRow from '../components/UserRow';
+import InvestorRow from '../components/InvestorRow';
 import userData from '../data/UserData';
 
 function Investors() {
@@ -16,7 +16,7 @@ function Investors() {
       <LabelRow label1="Name" label2="Investments" />
       {
         userData.map(user => {
-          return <UserRow key={user.name} img={user.img} userName={user.name} description={user.description} slug={user.slug} />
+          return <InvestorRow key={user.name} img={user.img} userName={user.name} description={user.description} slug={user.slug} />
         })
       }
 
