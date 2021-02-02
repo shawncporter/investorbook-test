@@ -6,7 +6,7 @@ import Nav from './Nav';
 import Header from '../components/Header';
 import LabelRow from '../components/LabelRow';
 import InvestorRow from '../components/InvestorRow';
-import userData from '../data/UserData';
+import investorData from '../data/InvestorData';
 
 function Investors() {
   return (
@@ -15,7 +15,7 @@ function Investors() {
       <Header heading="Investors" buttonName="Add Investor" />
       <LabelRow label1="Name" label2="Investments" />
       {
-        userData.map(user => {
+        investorData.map(user => {
           return <InvestorRow key={user.name} img={user.img} userName={user.name} description={user.description} slug={user.slug} />
         })
       }

@@ -5,7 +5,7 @@ import dante from "../images/avatars/dante.png";
 import kayden from "../images/avatars/kayden.png";
 import bruno from "../images/avatars/bruno.png";
 
-const userData = [
+const investorData = [
     {
         "img": rochelle,
         "name": "Rochelle Barnard",
@@ -44,4 +44,4 @@ const userData = [
     }
 ]
 
-export default userData
+export default investorData

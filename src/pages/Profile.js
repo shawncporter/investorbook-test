@@ -1,11 +1,11 @@
 // Stylesheets
 import '../styles/App.css';
 
-import userData from '../data/UserData';
+import investorData from '../data/InvestorData';
 
 function Profile(props) {
     const userSlug = props.match.params.userProfile
-    const user = userData.find(user => user.slug === userSlug)
+    const user = investorData.find(user => user.slug === userSlug)
     return (
         <div>
             {userSlug}
